@@ -39,7 +39,7 @@ const styles = {
     display: "flex",
     justifyContent: "space-between",
     padding: "20px 40px",
-    backgroundColor: "#fa4340",
+    backgroundColor: "#a81212dc",
     position: "relative",
     zIndex: 1,
     borderBottomLeftRadius:"15px",
