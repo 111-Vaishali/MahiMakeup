@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import FAQ from "./components/FAQ";
 
 function App() {
   const [showMain, setShowMain] = useState(false);
@@ -27,6 +28,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <FAQ />
     </>
   );
 }
@@ -44,7 +46,8 @@ const styles = {
   video: {
     width: "100%",
     height: "100%",
-    objectFit: "cover",
+    // objectFit: "cover",
+    objectFit: "contain"
   },
   skipBtn: {
     position: "absolute",
