@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import FAQ from "./components/FAQ";
+import Feedback from "./components/Feedback";
 
 function App() {
   const [showMain, setShowMain] = useState(false);
@@ -28,6 +29,8 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      
+      <Feedback />
       <FAQ />
     </>
   );

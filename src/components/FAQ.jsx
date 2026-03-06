@@ -79,13 +79,14 @@ const styles = {
 
   section: {
     padding: "60px 20px",
-    background: "#c15067",
+    background: "linear-gradient(to right, #252020, #000000)",
     textAlign: "center"
   },
 
   title: {
     fontSize: "32px",
-    marginBottom: "40px"
+    marginBottom: "40px",
+    color:"white",
   },
 
   card: {

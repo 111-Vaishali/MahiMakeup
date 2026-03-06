@@ -1,8 +1,8 @@
 function Hero() {
   return (
     <section style={styles.hero}>
-      <h1>Welcome to MAHI Makeup Studio</h1>
-      <p>Bridal • Mehendi • Nails • Professional Classes</p>
+      <h1 style={styles.heading}>Welcome to MAHI Makeup Studio</h1>
+      <p style={styles.text}>Bridal • Mehendi • Nails • Professional Classes</p>
       <button style={styles.button}>Book Now</button>
     </section>
   );
@@ -12,13 +12,23 @@ const styles = {
   hero: {
       width: "100%",
     height: "100vh",
-    background: "linear-gradient(to right, #b56565, #b56565)",
+    background: "linear-gradient(to right, #1f1b1b, #000000)",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
     textAlign: "center",
-     background: "linear-gradient(to right, #bb6c69, #9f5656)",
+     background: "linear-gradient(to right, #252020, #000000)",
+  },
+  heading: {
+    color: "white",
+    fontSize: "40px",
+  },
+
+  text: {
+    color: "white",
+    fontSize: "18px",
+    marginTop: "10px",
   },
   button: {
     marginTop: "20px",

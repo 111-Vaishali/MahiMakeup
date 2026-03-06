@@ -53,6 +53,7 @@ const styles = {
   },
   menu: {
     display: "flex",
+    fontSize: "18px",
     listStyle: "none",
     gap: "30px",
     cursor: "pointer",
@@ -64,10 +65,10 @@ const styles = {
     position: "absolute",
     top: "30px",
     left: "0",
-    backgroundColor: "dark pink",
+    backgroundColor: "white",
     padding: "10px",
     listStyle: "none",
-    boxShadow: "0 4px 8px rgba(14, 11, 11, 0.2)",
+    boxShadow: "0 4px 8px rgba(178, 40, 40, 0.2)",
   },
 };
 
