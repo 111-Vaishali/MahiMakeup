@@ -48,7 +48,7 @@ function FAQ() {
   };
 
   return (
-    <section style={styles.section}>
+    <section id="faq" style={styles.section}>
 
       <h2 style={styles.title}>Frequently Asked Questions</h2>
 
@@ -79,7 +79,7 @@ const styles = {
 
   section: {
     padding: "60px 20px",
-    background: "linear-gradient(to right, #252020, #000000)",
+    background: "#000000",
     textAlign: "center"
   },
 

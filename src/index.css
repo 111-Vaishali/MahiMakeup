@@ -1,4 +1,29 @@
+
 body {
   margin: 0;
   padding: 0;
+  background-color: black;
+}
+html{
+scroll-behavior: smooth;
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+a:hover {
+  color: #ff4d6d;
+}
+
+li:hover {
+  transform: scale(1.05);
+}
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes scrollReverse {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
 }

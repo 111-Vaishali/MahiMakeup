@@ -18,7 +18,7 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     textAlign: "center",
-     background: "linear-gradient(to right, #252020, #000000)",
+     
   },
   heading: {
     color: "white",
