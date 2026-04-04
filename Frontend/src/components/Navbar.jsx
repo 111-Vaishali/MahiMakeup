@@ -52,9 +52,9 @@ function Navbar() {
             </ul>
           )}
         </li>
-        {/* <li>
+        <li>
           <Link to="/booking" style={styles.link}>Book Now</Link>
-        </li> */}
+        </li>
 
         <li>
           <Link to="/feedback" style={styles.link}>Feedback</Link>
