@@ -65,7 +65,7 @@ function App() {
           <HairService />
           <PreMaternityService />
           <JewelleryService />
-          <Hero />
+          {/* <Hero /> */}
           <SpecialNote />
           {/* <Feedback /> */}
           <FAQ />
